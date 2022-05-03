@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oleo Script Swash Caps', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    width: 100%;
+    background-color: #5C4011;
+    color: white;
+    position: fixed;
+    padding: 15px 0 12px;
+}    
+
+.nav li {
+    list-style: none;
+    float: left;
+    margin-left: 450px;
+    
+}
+
+.nav li a {
+    font-size: 20px;
+    transition: 250ms;
+}
+
+.nav li a:hover {
+    color: lightgray;
+    transform: scale(1.2);
+}
+
+.nav li a:active {
+    color: coral;
+    transform: scale(1.5);
+}
+
+.title {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 75px;
+    color: #F5C676;
+    text-shadow: -2px 2px 0 #000,
+    2px 2px 0 #000,
+   2px -2px 0 #000,
+  -2px -2px 0 #000;
+}
+
+.logo_image {
+    border-radius: 50%;
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.header {
+    background-image: url(../Images/beans.jpg);
+    background-repeat: no-repeat;
+}
+
+.mission {
+    background-image: url(../Images/Coffee\ Cup\ Guide\ Banner\ Desktop.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.mission_text {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 160px;
+    padding-left: 500px;
+}
+
+.menu {
+    height: 570px;
+    background-color: #9e6b13;
+    display: flex;
+    justify-content: space-around;
+}    
+
+.item {
+    border-radius: 100px;
+    margin-top: 50px;;
+}
+
+.latte {
+    height: 300px;
+    width: 500px;
+}
+
+.flat_white {
+    height: 300px;
+    width: 500px;
+}
+
+.cappu {
+    height: 300px;
+    width: 500px;
+}
+
+.item p {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.item h3 {
+    text-align: center;
+    color: #F5C676;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.item img {
+    transition: 250ms;
+}
+
+.item img:hover {
+    transform: scale(1.2);
+}
+
+.about_image {
+    background-image: url(../Images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    padding-top: 30px;
+    width: 1500px;
+    margin: 0 auto;
+    background-color: rgba(247, 200, 118, 0.8);
+    
+}
+
+.info {
+    width: 300px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 60px;
+}
+
+.location {
+    display: inline;
+}
+
+.location p {
+    float: left;
+    width: 100px;
+    padding-top: 160px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #F7C876;
+}
+
+.footer p {
+    display: inline;
+    width: 100%;
+}
+
+.footer a {
+    color: #000;
+    float: right;
+}
